@@ -1,0 +1,128 @@
+/*--- section 1 Formulaire---*/
+
+.search{
+    display: flex;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.search .input{
+    border-right: none;
+    border-left: none;
+    border-top: 1px #F2F2F2 solid;
+    border-bottom: 1px #F2F2F2 solid;
+}
+
+.search input{
+    border: none;
+    height: 45px;
+    font-size: 20px;
+}
+
+.search i{
+    background-color:#ddd ;
+    align-self: center;
+    padding: 24px 20px 25px 20px;
+    border-radius: 15px 0px 0px 15px;
+    color: black;
+}
+
+.search button{
+    background-color: white;
+    border: none;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.search .reset{
+    background-color: white;
+    padding: 20px 10px;
+}
+
+#searchButton1{
+    background-color:blue ;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+}
+
+#searchButtonMobile{
+    display: none;
+}
+
+.filters i{
+    color: blue;
+    background-color: #deebff;
+    padding: 15px;
+    border-radius: 25px;
+    height: 20px;
+    width: 20px;
+    line-height: 0.5cm;
+}
+
+.filters{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.filterText{
+    font-weight: 900;
+    font-size: large;
+}
+
+.filters ul{
+    display:flex;
+}
+
+.filters li{
+    display: flex;
+    padding-right: 15px;
+    margin: 15px;
+    border-top: 1px gray solid;
+    border-bottom: 1px gray solid;
+    border-right: 1px gray solid;
+    border-radius: 25px;
+}
+
+.filters li:hover{
+    background-color: blue;
+}
+
+.filters li:hover > a{
+    color: white;
+}
+
+.filters a{
+    text-decoration: none;
+    color: black;
+    align-self: center;
+    font-size: large;
+}
+
+.filters strong{
+    padding: 0px 10px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.info i{
+    padding: 12px 10px;
+    border: 1px lightgrey solid;
+    border-radius: 30px;
+    color: blue;
+}
+
+.info p{
+    padding-left: 15px;
+}

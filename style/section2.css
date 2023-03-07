@@ -1,0 +1,182 @@
+/*--- section 2 hotels -> general ---*/
+#hotels{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#hotels h3{
+    margin: 0;
+}
+
+#hotels a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/*-- section 2 -> regular --*/
+
+.regular{
+    display: flex;
+    flex-flow: column;
+    width: 1100px;
+    background-color:#ddd;
+    border-radius: 25px;
+    padding-bottom: 30px;
+}
+
+.title{
+    margin: 0px 0px 20px 35px;
+    padding-top: 40px;
+}
+
+.firstRow{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.secondRow{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.regularLink{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-left: 25px;
+    padding-bottom: 20px;
+}
+
+/*-- Section 2 cards --*/
+
+.verticalCard{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    border: 4px white solid;
+    border-radius: 25px;
+    width: 300px;
+    height: 220px;
+    overflow: hidden;
+    margin-left: 30px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.pictureHotelAlpha{
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    justify-content: center;
+    height: 130px;
+}
+
+.verticalCard figcaption{
+    padding: 10px 10px;
+}
+
+.verticalCard p{
+    margin: 5px 0px;
+}
+
+.fa-solid{
+    color: blue;
+}
+
+.fa-regular{
+    color: gray;
+}
+
+/*-- Section 2 -> aside "Popular" --*/
+
+.popular{
+    width: 500px;
+    background-color: #ddd;
+    border-radius: 25px;
+}
+
+.popular .popHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 30px 0px 30px;
+    align-items: baseline;
+}
+
+.popHeader h2{
+    margin-top: 0px;
+}
+
+.popular .popHeader i{
+    color: black;
+}
+
+.popHotels{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+/*-- Section 2 -> aside cards --*/
+
+.horizontalCard{
+    display: flex;
+    background-color: white;
+    border: 4px white solid;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px grey;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    max-width: 350px;
+}
+
+.pictureHotelBravo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 200px
+}
+
+.popTitle{
+    margin-top: 15px;
+}
+
+.horizontalCard figcaption{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    width: 250px;
+    padding: 0px 20px 10px 20px;
+}
+
+.horizontalCard figcaption a{
+    color: black;
+    font-weight: 900;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+.horizontalCard figcaption p{
+    margin-top: 10px;
+}
+
+.horizontalCard figcaption i{
+    padding-bottom: 5px;
+}
+
+.horizontalCard img{
+    height: 100%;
+}
+
+#bleuBlanc{
+    min-height: 200px;
+    width: 100%;
+}

@@ -1,0 +1,141 @@
+/*--- section 3 Activities---*/
+
+#activities{
+    margin-left: 60px;
+    margin-right: 70px;
+}
+
+#activities h2{
+    margin: 50px 0px 15px 35px;
+}
+
+.mainRow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainRow a{
+    text-decoration: none;
+    color: black;
+}
+
+.responsiveRow{
+    display: flex;
+}
+
+.oneColumn{
+    display: flex;
+    flex-flow: column;
+    height: 460px;
+    margin-right: 70px;
+
+
+}
+
+.twoColumn{
+    display: flex;
+    flex-flow: column;
+    height: 460px;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+.oneColumn figure{
+    display: flex;
+    flex-flow: column;
+    height: 460px;
+    border: #ddd 1px solid;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 25px;
+    width: 320px;
+    overflow: hidden;
+}
+
+.mainRow figcaption{
+    padding-left: 15px;
+    font-weight: 900;
+}
+
+.activityPicture{
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    justify-content: center;
+    height: 170px;
+    align-items: center;
+}
+
+.oneColumnPicture{
+    display: flex;
+    flex-flow: column;
+    overflow: hidden;
+    height: 370px;
+    justify-content: center;
+    align-items: center;
+}
+
+.twoColumn figure{
+    display: flex;
+    flex-flow: column;
+    border: #ddd 1px solid;
+    box-shadow: 5px 5px 10px grey;
+    margin: 15px 20px 15px 20px;
+    border-radius: 25px;
+    width: 320px;
+    overflow: hidden;
+}
+
+.oneColumn figure:hover{
+    box-shadow: 5px 5px 10px darkgray;
+}
+
+.twoColumn figure:hover{
+    box-shadow: 5px 5px 10px darkgray;
+}
+
+.pomegues{
+    height: 290px;
+}
+
+.pomegues figcaption{
+    max-height: 50px;
+}
+
+.frioul{
+    height: 220px;
+}
+
+.twoColumn figcaption{
+    height: 70px;
+    margin: 0px;
+}
+
+.twoColumn figure img{
+    margin-top: 50px;
+}
+
+.twoColumn .garde img{
+    margin-top: 150px;
+}
+
+.frioul figcaption{
+    height: 85px;
+}
+
+.twoColumn .frioulPic{
+    margin-top: 60px;
+    margin-right: 25px;
+    width: 350px;
+}
+
+#calanquesPic{
+    width: 700px;
+    height: 100%;
+    align-self: center;
+}
+
+#vieuxPortPic{
+    width: 700px;
+    height: 100%;
+    align-self: center;
+}

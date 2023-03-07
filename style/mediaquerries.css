@@ -1,0 +1,430 @@
+/* media querries */
+
+/* first breakpoint  (Large Screens)*/
+@media screen and (max-width: 1700px){
+
+    /*header*/
+    header .text{
+        margin-left: 0; 
+    }
+
+    /* section 2 */
+    .regular{
+        width: 800px;
+    }
+
+    .title{
+        margin-left: 30px;
+    }
+
+    .hotelMain{
+        display: flex;
+        align-self: center;
+    }
+
+    .firstRow{
+        flex-flow: column;
+    }
+
+    .secondRow{
+        flex-flow: column;
+    }
+
+    .horizontalCard{
+        margin-bottom: 115px;
+    }
+
+/* section 3 "Activities"*/
+    #activities h2{
+        margin-left: 75px;
+    }
+
+    .mainRow{
+        justify-content: space-around;
+    }
+    
+    .responsiveRow{
+        display: flex;
+        flex-flow: column;
+    }
+
+    .oneColumn{
+        height: 235px;
+        margin-right: 0px;
+    }
+
+    .twoColumn{
+        align-items: center;
+        padding-right: 0px;
+    }  
+
+    .mainRow figure{
+        height: 300px;
+    }
+
+    .mainRow figcaption{
+        height: 50px;
+    }
+
+    #vieuxPortPic{
+        height: 300px;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    #calanquesPic{
+        height: 300px;
+        width: 100%;
+        margin-top: 60px;
+    }
+    /* footer */
+
+    .footerRow{
+        justify-content: space-evenly;
+    }
+    .footerColumn{
+        margin-right: 0px;
+    }
+}
+
+/* second breakpoint (Desktop / Laptop)*/
+@media screen and (max-width: 1400px) {
+
+    /* header */
+    .navbar{
+        flex-flow: column;
+        align-items: center;
+    }
+
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+
+    .text h1{
+        margin-top: 70px;
+    }
+
+    nav a{
+        padding: 15px 25px 5px 25px;
+        border-bottom: #ddd 2px solid;
+    }
+
+    nav a:hover{
+        border-top: none;
+        border-bottom: 2px #0065fc solid;
+    }
+
+    .text{
+        display: flex;
+        flex-flow: column;
+        margin-left: 15%;
+    }
+
+    /* section 1 */
+    .search{
+        margin-bottom: 25px;
+    }
+
+    .filterText{
+        margin-right: 15px;
+    }
+
+    .filters ul{
+        flex-flow: wrap;
+        padding-left: 0;
+    }
+
+    /* section 2 */
+
+    #hotels{
+        flex-flow: column-reverse;
+        align-items: center;
+    }
+
+    .popular{
+        margin-bottom: 25px;
+        width: 75%;
+    }
+
+    .popular .popHeader{
+        margin-left: 10%;
+        padding-left: 0;
+        margin-right: 5%;
+    }
+
+    .regular{
+        width: 75%;
+        margin-bottom: 25px;
+        background-color: white;
+    }
+
+    .title{
+        margin-left: 0px;
+    }
+
+    .regularLink{
+        margin-left: 50px;
+    }
+
+    .popHotels figure{
+        max-width: 500px;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+
+    .verticalCard{
+        width: 320px;
+        height: 200px;
+    }
+
+    .pictureHotelAlpha{
+        height: 160px;
+    }
+
+    /* Section 3 */
+    #activities h2{
+        margin-left: 15%;
+    }
+
+    .mainRow{
+        justify-content: center;
+    }
+
+}
+
+/* third breakpoint (Tablettes)*/
+
+@media screen and (max-width: 992px){
+
+    .main{
+        margin: 5%;
+    }
+
+    /* section 1 */
+    #searchButton1{
+        display: none;
+    }
+
+    #searchButtonMobile{
+        display: inline-flex;
+        background-color: white;
+        padding-left: 0px;
+        width: 55px;
+        border-top: #ddd 1px solid;
+        border-bottom: #ddd 1px solid;
+        border-left: none;
+        border-right: none;
+        border-radius: 0px 15px 15px 0px;  
+    }
+
+    #searchButtonMobile > i{
+        background-color:#0065fc ;
+        border-radius: 15px;
+        color: white;
+        font-size: medium;
+        padding: 17px 20px;
+    }
+    
+    /* section 2 */
+    
+    .popular{
+        width: 100%;
+    }
+
+    .title{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .regular{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .regularLink{
+        margin-left: 0%;
+        text-align: center;
+    }
+
+    /* section 3 */
+    #activities{
+        display: flex;
+        flex-flow: column;
+    }
+
+    #activities h2{
+        margin-left: 0;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}
+
+/* fourth breakpoint (Mobiles)*/
+
+@media screen and (max-width: 768px) {
+    body{
+        margin-left: 0px;
+    }
+
+    .main{
+        margin: 0px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .main h1{
+        font-size: x-large;
+    }
+
+    /* section 1 formulaire */
+    #formulaire{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    header .text{
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+
+    .search input{
+        width: 150px;
+        font-size: 15px;
+    }
+
+    .search .reset{
+        padding-left: 0;
+    }
+
+    .filters{
+        flex-flow: column;
+    }
+
+    .filterText{
+        align-self: flex-start;
+    }
+
+    .filters ul{
+        display: flex;
+        align-self: flex-start;
+        max-width: 450px;
+    }
+
+    .filters li{
+        margin-left: 0px;
+        padding-right: 5px;
+    }
+
+    .filters a{
+        font-size: medium;
+    }
+
+    /* section 2 hotels */
+    .popular{
+        border-radius: 0px;
+        width: 100%;
+    }
+
+    .regular{
+        width: 100%;
+    }
+
+    .title{
+        text-align: left;
+        margin-left: 10%;
+    }
+    .hotelMain{
+        flex-flow: column;
+    }
+
+    .popHotels figure{
+        max-width: 350px;
+        height: 200px;
+    }
+
+    .verticalCard{
+        width: 350px;
+        height: 250px;
+    }
+
+    .pictureHotelAlpha{
+        height: 160px;
+    }
+
+    .regularLink{
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .firstRow{
+        margin-right: 0;
+    }
+
+    .secondRow{
+        margin-left: 0;
+    }
+
+    /* section 3 Activities */
+    #activities{
+        margin: 0%;
+    }
+
+    #activities h2{
+        text-align: left;
+        margin-left: 10%;
+    }
+
+    .mainRow{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .oneColumn{
+        height: 300px;
+    }
+
+    .twoColumn{
+        height: 600px;
+    }
+
+    .mainRow figure{
+        width: 350px;
+        height: 250px;
+    }
+
+    .activityPicture{
+        height: 180px;
+    }
+
+    .oneColumnPicture{
+        height: 180px;
+    }
+
+    .twoColumn .frioulPic{
+        margin-top: 55px;
+        margin-right: 0;
+    }
+
+    /* footer */
+    footer{
+        max-width: 100%;
+    }
+
+    .footerRow{
+        display: flex;
+        flex-flow: column;
+        max-width: 100%;
+        margin-left: 10%;
+    }
+
+    .footerColumn{
+        width: 250px;
+    }
+}
